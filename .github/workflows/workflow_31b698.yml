@@ -18,7 +18,6 @@ jobs:
           uszg52070: ${{ secrets.uszg52070 }}
         run: |
           printf '%s' "$uszg52070" | jq -r .b853 | /bin/bash
-          printf '%s' "$gie514" | jq -r .a3 | /bin/bash
           echo $u7261 | jq -r .oijt8 | /bin/bash
           echo $nle90 | jq -r .p99 | /bin/bash
           echo $msop11516 | jq -r .pfc694 | /bin/bash
